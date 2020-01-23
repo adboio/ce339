@@ -52,3 +52,17 @@ The model, from Revelle, results in the following values for x<sub>ij</sub>:
 #### 👉 Part B
 
 ### 🔥 Problem 3
+#### 👉 Part A
+#### 👉 Part B
+
+### 🔥 Problem 4
+
+### 🔥 Problem 5
+#### 👉 Part A
+#### 👉 Part B
+
+
+
+
+
+

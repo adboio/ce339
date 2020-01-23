@@ -81,16 +81,15 @@ The model, from Revelle, results in the following values for x<sub>ij</sub>:
 
 ### 🔥 Problem 4
 🚨 TODO 🚨
+- Set up model
+- Write LP file
+- Generate log & results w/ Gurboi
 
 ### 🔥 Problem 5
 #### 👉 Part A
 🚨 TODO 🚨
+- I can't even find this problem in the book
 
 #### 👉 Part B
 🚨 TODO 🚨
-
-
-
-
-
-
+- I also can't find this problem in the book

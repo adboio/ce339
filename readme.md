@@ -27,10 +27,22 @@ resulting in a total cost of:
          x               25
          y          35.9375
          z          89.0625
-
 ``` 
 resulting in a total cost of:
 `25*500 + 35.9*1000 + 89.1*20001` = **$226,600** *(a 9% increase)*
 ### 🔥 Problem 2
+#### 👉 Part A
+Files: `ass01-2a.lp`, `ass01-2a.log`
+
+The model, from Revelle, results in the following values for x<sub>ij</sub>:
+```
+  VARIABLE        VALUE
+       x11              250
+       x12              100
+       x13               50
+       x21                0
+       x22                0
+       x23              300
+```
 
 ### 🔥 Problem 3

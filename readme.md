@@ -1,7 +1,7 @@
 # CE 339 - Spring 2020
 
-## Assignment 1
-### 🔥 Problem 1
+## Assignment 1 */ass01*
+### 🔥 Problem 1 */ass01/p1*
 #### 👉 Part A
 **Files:** `ass01-1a.lp`, `ass01-1a.log`
 
@@ -32,9 +32,12 @@ resulting in a total cost of:
 `25*500 + 35.9*1000 + 89.1*20001` = **$226,600** *(a 9% increase)*
 
 #### 👉 Part C
-#### 👉 Part D
+🚨 TODO 🚨
 
-### 🔥 Problem 2
+#### 👉 Part D
+🚨 TODO 🚨
+
+### 🔥 Problem 2 */ass01/p2*
 #### 👉 Part A
 Files: `ass01-2a.lp`, `ass01-2a.log`
 
@@ -51,15 +54,31 @@ The model, from Revelle, results in the following values for x<sub>ij</sub>:
 
 #### 👉 Part B
 
-### 🔥 Problem 3
+### 🔥 Problem 3 */ass01/p3*
 #### 👉 Part A
+🚨 TODO 🚨
+
 #### 👉 Part B
+Files: `ass01-3b.lp`, `ass01-3b.log`
+
+Results:
+```
+  VARIABLE        VALUE
+        x1             7000
+        x2            15000
+```
+
+Comment on the solution: 🚨 TODO 🚨 
 
 ### 🔥 Problem 4
+🚨 TODO 🚨
 
 ### 🔥 Problem 5
 #### 👉 Part A
+🚨 TODO 🚨
+
 #### 👉 Part B
+🚨 TODO 🚨
 
 
 

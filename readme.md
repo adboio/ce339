@@ -5,6 +5,14 @@
 #### 👉 Part A
 **Files:** `ass01-1a.lp`, `ass01-1a.log`
 
+**Results:**
+```
+  VARIABLE        VALUE
+         x               25
+         y          54.6875
+         z          70.3125
+```
+
 **Conclusion:** Solution is consistent with Revelle
 
 #### 👉 Part B
@@ -39,8 +47,9 @@ resulting in a total cost of:
 
 ### 🔥 Problem 2
 #### 👉 Part A
-Files: `ass01-2a.lp`, `ass01-2a.log`
+**Files:** `ass01-2a.lp`, `ass01-2a.log`
 
+**Results:**
 The model, from Revelle, results in the following values for x<sub>ij</sub>:
 ```
   VARIABLE        VALUE
@@ -59,16 +68,16 @@ The model, from Revelle, results in the following values for x<sub>ij</sub>:
 🚨 TODO 🚨
 
 #### 👉 Part B
-Files: `ass01-3b.lp`, `ass01-3b.log`
+**Files:** `ass01-3b.lp`, `ass01-3b.log`
 
-Results:
+**Results:**
 ```
   VARIABLE        VALUE
         x1             7000
         x2            15000
 ```
 
-Comment on the solution: 🚨 TODO 🚨 
+**Comment on the solution:** 🚨 TODO 🚨 
 
 ### 🔥 Problem 4
 🚨 TODO 🚨

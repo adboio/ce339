@@ -62,6 +62,7 @@ The model, from Revelle, results in the following values for x<sub>ij</sub>:
 ```
 
 #### 👉 Part B
+🚨 TODO 🚨 
 
 ### 🔥 Problem 3
 #### 👉 Part A

@@ -1,7 +1,7 @@
 # CE 339 - Spring 2020
 
-## Assignment 1 */ass01*
-### 🔥 Problem 1 */ass01/p1*
+## Assignment 1
+### 🔥 Problem 1
 #### 👉 Part A
 **Files:** `ass01-1a.lp`, `ass01-1a.log`
 
@@ -37,7 +37,7 @@ resulting in a total cost of:
 #### 👉 Part D
 🚨 TODO 🚨
 
-### 🔥 Problem 2 */ass01/p2*
+### 🔥 Problem 2
 #### 👉 Part A
 Files: `ass01-2a.lp`, `ass01-2a.log`
 
@@ -54,7 +54,7 @@ The model, from Revelle, results in the following values for x<sub>ij</sub>:
 
 #### 👉 Part B
 
-### 🔥 Problem 3 */ass01/p3*
+### 🔥 Problem 3
 #### 👉 Part A
 🚨 TODO 🚨
 

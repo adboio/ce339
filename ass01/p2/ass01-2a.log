@@ -1,0 +1,74 @@
+\ Model ass01-2a.lp
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+  100 x11 + 120 x12 + 140 x13 + 120 x21 + 100 x22 + 120 x23
+Subject To
+ 1: x11 + x12 + x13 <= 400
+ 2: x21 + x22 + x23 <= 300
+ 3: x11 + x21 >= 250
+ 4: x12 + x22 >= 100
+ 5: x13 + x23 >= 350
+ 6: x11 >= 0
+ 7: x12 >= 0
+ 8: x13 >= 0
+ 9: x21 >= 0
+ 10: x22 >= 0
+ 11: x23 >= 0
+Bounds
+End
+
+report.py v.0.96 output from ass01-2a.lp at 09:04 AM on 01/23/2020:
+
+        OBJECTIVE FUNCTION VALUE
+
+        0)         80000
+
+  VARIABLE        VALUE          REDUCED COST
+       x11              250                 0
+       x12              100                 0
+       x13               50                 0
+       x21                0                40
+       x22                0                 0
+       x23              300                 0
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+        1)                0                 0
+        2)                0                20
+        3)                0              -100
+        4)                0              -120
+        5)                0              -140
+        6)              250                 0
+        7)              100                 0
+        8)               50                 0
+        9)                0                 0
+       10)                0                 0
+       11)              300                 0
+
+ NO. ITERATIONS=       4
+
+ RANGES IN WHICH THE BASIS IS UNCHANGED:
+
+                           OBJ COEFFICIENT RANGES
+ VARIABLE         CURRENT        ALLOWABLE        ALLOWABLE
+                   COEF          INCREASE         DECREASE
+      x11             100               40              100
+      x12             120                0              120
+      x13             140              inf                0
+      x21             120              inf               40
+      x22             100              inf                0
+      x23             120                0              inf
+
+                           RIGHTHAND SIDE RANGES
+      ROW         CURRENT        ALLOWABLE        ALLOWABLE
+                    RHS          INCREASE         DECREASE
+        1             400              inf                0
+        2             300               50                0
+        3             250                0              250
+        4             100                0              100
+        5             350                0               50
+        6               0              250              inf
+        7               0              100              inf
+        8               0               50              inf
+        9               0                0              inf
+       10               0                0              inf
+       11               0              300              inf

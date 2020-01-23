@@ -1,4 +1,4 @@
-\ Model ass01-a.lp
+\ Model ass01-1a.lp
 \ LP format - for model browsing. Use MPS format to capture full model detail.
 Minimize
   500 x + 1000 y + 2000 z

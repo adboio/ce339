@@ -1,0 +1,39 @@
+\ Model toy.lp
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Maximize
+  2 x + 3 y
+Subject To
+ 1: 4 x + 3 y <= 10
+ 2: 3 x + 5 y <= 12
+Bounds
+End
+
+report.py v.0.96 output from toy.lp at 11:02 AM on 01/15/2020:
+
+        OBJECTIVE FUNCTION VALUE
+
+        0)     7.4545455
+
+  VARIABLE        VALUE          REDUCED COST
+         x        1.2727273                 0
+         y        1.6363636                 0
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+        1)                0       0.090909091
+        2)                0        0.54545455
+
+ NO. ITERATIONS=       2
+
+ RANGES IN WHICH THE BASIS IS UNCHANGED:
+
+                           OBJ COEFFICIENT RANGES
+ VARIABLE         CURRENT        ALLOWABLE        ALLOWABLE
+                   COEF          INCREASE         DECREASE
+        x               2                2              0.2
+        y               3       0.33333333              1.5
+
+                           RIGHTHAND SIDE RANGES
+      ROW         CURRENT        ALLOWABLE        ALLOWABLE
+                    RHS          INCREASE         DECREASE
+        1              10                6              2.8
+        2              12        4.6666667              4.5

@@ -1,0 +1,59 @@
+\ Model ass01-a.lp
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+  500 x + 1000 y + 2000 z
+Subject To
+ 1: x + y + z >= 150
+ 2: 200 x + 2300 y + 700 z <= 180000
+ 3: x <= 25
+ 4: y <= 120
+ 5: z <= 100
+ 6: x >= 0
+ 7: y >= 0
+ 8: z >= 0
+Bounds
+End
+
+report.py v.0.96 output from ass01-a.lp at 07:03 PM on 01/22/2020:
+
+        OBJECTIVE FUNCTION VALUE
+
+        0)      207812.5
+
+  VARIABLE        VALUE          REDUCED COST
+         x               25                 0
+         y          54.6875                 0
+         z          70.3125                 0
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+        1)                0           -2437.5
+        2)                0             0.625
+        3)                0            1812.5
+        4)          65.3125                 0
+        5)          29.6875                 0
+        6)               25                 0
+        7)          54.6875                 0
+        8)          70.3125                 0
+
+ NO. ITERATIONS=       0
+
+ RANGES IN WHICH THE BASIS IS UNCHANGED:
+
+                           OBJ COEFFICIENT RANGES
+ VARIABLE         CURRENT        ALLOWABLE        ALLOWABLE
+                   COEF          INCREASE         DECREASE
+        x             500           1812.5              inf
+        y            1000             1000              inf
+        z            2000              inf             1000
+
+                           RIGHTHAND SIDE RANGES
+      ROW         CURRENT        ALLOWABLE        ALLOWABLE
+                    RHS          INCREASE         DECREASE
+        1             150        20.652174        48.913043
+        2          180000           104500            47500
+        3              25        53.571429        22.619048
+        4             120              inf          65.3125
+        5             100              inf          29.6875
+        6               0               25              inf
+        7               0          54.6875              inf
+        8               0          70.3125              inf

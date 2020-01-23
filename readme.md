@@ -40,7 +40,7 @@ Files: `ass01-2a.lp`, `ass01-2a.log`
 
 Data:
 | Variable       | Value |
-|:--------------:|:-----:|
+| -------------- | ----- |
 | c<sub>11</sub> | 100   |
 | c<sub>12</sub> | 120   |
 | c<sub>13</sub> | 140   |

@@ -3,14 +3,14 @@
 ## Assignment 1
 ### 🔥 Problem 1
 #### 👉 Part A
-Files: `ass01-1a.lp`, `ass01-1a.log`
+**Files:** `ass01-1a.lp`, `ass01-1a.log`
 
-Conclusion: Solution is consistent with Revelle
+**Conclusion:** Solution is consistent with Revelle
 
 #### 👉 Part B
-Files: `ass01-1b.lp`, `ass01-1b.log`
+**Files:** `ass01-1b.lp`, `ass01-1b.log`
 
-The results, using a hardness of 1200, were:
+The results, using a **hardness of 1200**, were:
 ```
   VARIABLE        VALUE
          x               25
@@ -21,7 +21,7 @@ resulting in a total cost of:
 `25*500 + 54.7*1000 + 70.3*2000` = **$207,800**
 
 
-...and with a hardness of 1000:
+...and with a **hardness of 1000**:
 ```
   VARIABLE        VALUE
          x               25
@@ -37,12 +37,6 @@ resulting in a total cost of:
 ### 🔥 Problem 2
 #### 👉 Part A
 Files: `ass01-2a.lp`, `ass01-2a.log`
-
-***Data:***
-| Variable | Value |
-| --- | --- |
-| c11 | 100 |
-
 
 The model, from Revelle, results in the following values for x<sub>ij</sub>:
 ```

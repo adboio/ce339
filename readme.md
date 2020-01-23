@@ -21,6 +21,16 @@ resulting in a total cost of:
 `25*500 + 54.7*1000 + 70.3*2000` = **$207,800**
 
 
+...and with a hardness of 1000:
+```
+  VARIABLE        VALUE
+         x               25
+         y          35.9375
+         z          89.0625
+
+``` 
+resulting in a total cost of:
+`25*500 + 35.9*1000 + 89.1*20001` = **$226,600** *(a 9% increase)*
 ### 🔥 Problem 2
 
 ### 🔥 Problem 3

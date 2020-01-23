@@ -41,7 +41,7 @@ Files: `ass01-2a.lp`, `ass01-2a.log`
 The model, from Revelle, results in the following values for x<sub>ij</sub>:
 ```
   VARIABLE        VALUE
-       x11              250
+       x<sub>11</sub>              250
        x12              100
        x13               50
        x21                0

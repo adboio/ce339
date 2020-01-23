@@ -16,7 +16,7 @@ the results, using a hardness of 1200, were:
          z          70.3125
 giving a total cost per day of 25*500 + 54.7*1000 + 70.3*2000 = $207800
 
-and with a value of 1000:
+and with a hardness of 1000:
   VARIABLE        VALUE
          x               25
          y          35.9375
@@ -26,6 +26,4 @@ x1 stays the same, x2 is reduced, and x3 is increased.
 source x3 is double the cost of source x2, so this increases total cost.
 total cost is now 25*500 + 35.9*1000 + 89.1*2000 = $226600, a 9.0% increase
 
-
-
-
+***** PART C

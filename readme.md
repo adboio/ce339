@@ -38,20 +38,10 @@ resulting in a total cost of:
 #### 👉 Part A
 Files: `ass01-2a.lp`, `ass01-2a.log`
 
-Data:
-| Variable       | Value |
-| -------------- | ----- |
-| c<sub>11</sub> | 100   |
-| c<sub>12</sub> | 120   |
-| c<sub>13</sub> | 140   |
-| c<sub>21</sub> | 120   |
-| c<sub>22</sub> | 100   |
-| c<sub>23</sub> | 120   |
-| a<sub>1</sub>  | 400   |
-| a<sub>2</sub>  | 300   |
-| b<sub>1</sub>  | 250   |
-| b<sub>2</sub>  | 100   |
-| b<sub>3</sub>  | 350   |
+***Data:***
+| Variable | Value |
+| --- | --- |
+| c11 | 100 |
 
 
 The model, from Revelle, results in the following values for x<sub>ij</sub>:

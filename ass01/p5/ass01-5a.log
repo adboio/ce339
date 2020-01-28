@@ -1,0 +1,39 @@
+\ Model G:\My Drive\School\NCSU\Spring 2020\CE 339\HW1\ass01\p5\ass01-5a.lp
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Maximize
+  300 t1 + 500 t2
+Subject To
+ 1: 700 t1 + 800 t2 <= 560000
+ 2: 1200 t1 + 1500 t2 <= 1.8e+06
+Bounds
+End
+
+report.py v.0.96 output from G:\My Drive\School\NCSU\Spring 2020\CE 339\HW1\ass01\p5\ass01-5a.lp at 08:12 PM on 01/27/2020:
+
+        OBJECTIVE FUNCTION VALUE
+
+        0)        350000
+
+  VARIABLE        VALUE          REDUCED COST
+        t1                0             137.5
+        t2              700                 0
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+        1)                0             0.625
+        2)           750000                 0
+
+ NO. ITERATIONS=       1
+
+ RANGES IN WHICH THE BASIS IS UNCHANGED:
+
+                           OBJ COEFFICIENT RANGES
+ VARIABLE         CURRENT        ALLOWABLE        ALLOWABLE
+                   COEF          INCREASE         DECREASE
+       t1             300            137.5              inf
+       t2             500              inf        157.14286
+
+                           RIGHTHAND SIDE RANGES
+      ROW         CURRENT        ALLOWABLE        ALLOWABLE
+                    RHS          INCREASE         DECREASE
+        1          560000           400000           560000
+        2         1800000              inf           750000

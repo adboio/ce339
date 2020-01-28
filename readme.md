@@ -88,8 +88,17 @@ The model, from Revelle, results in the following values for x<sub>ij</sub>:
 
 ### 🔥 Problem 5
 #### 👉 Part A
-🚨 TODO 🚨
-- I can't even find this problem in the book
+**Files:** `ass01-5a.lp`, `ass01-5a.log`
+
+**Model:** 
+
+**Results:**
+In order to maximize Trukko's profit, we should advise they produce **700 type 2 trucks** and **0 type 1 trucks**.
+```
+  VARIABLE        VALUE
+        t1                0
+        t2              700
+```
 
 #### 👉 Part B
 🚨 TODO 🚨

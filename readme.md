@@ -91,7 +91,7 @@ The model, from Revelle, results in the following values for x<sub>ij</sub>:
 **Files:** `ass01-5a.lp`, `ass01-5a.log`
 
 **Results:**
-In order to maximize Trukko's profit, we should advise they produce **700 type 2 trucks** and **0 type 1 trucks**.
+In order to maximize Trucko's profit, we should advise they produce **_700_ Type 2 trucks** and **_0_ Type 1 trucks**.
 ```
   VARIABLE        VALUE
         t1                0

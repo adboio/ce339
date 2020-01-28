@@ -90,8 +90,6 @@ The model, from Revelle, results in the following values for x<sub>ij</sub>:
 #### 👉 Part A
 **Files:** `ass01-5a.lp`, `ass01-5a.log`
 
-**Model:** 
-
 **Results:**
 In order to maximize Trukko's profit, we should advise they produce **700 type 2 trucks** and **0 type 1 trucks**.
 ```

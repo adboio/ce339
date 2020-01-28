@@ -1,0 +1,111 @@
+\ Model ass01-4.lp
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+  124 p11 + 162 p12 + 118 p13 + 146 p21 + 126 p22 + 154 p23 + 118 o11
+   + 156 o12 + 112 o13 + 167 o21 + 147 o22 + 175 o23 + 153 sc11 + 191 sc12
+   + 147 sc13 + 181 sc21 + 161 sc22 + 189 sc23 + 104 sb11 + 142 sb12
+   + 98 sb13 + 132 sb21 + 112 sb22 + 140 sb23
+Subject To
+ 1: p11 + p12 + p13 + p21 + p22 + p23 >= 205
+ 2: o11 + o12 + o13 + o21 + o22 + o23 >= 369
+ 3: sc11 + sc12 + sc13 + sc21 + sc22 + sc23 >= 340
+ 4: sb11 + sb12 + sb13 + sb21 + sb22 + sb23 >= 408
+ 5: p11 + p12 + p13 + o11 + o12 + o13 + sc11 + sc12 + sc13 + sb11 + sb12
+   + sb13 <= 700
+ 6: p21 + p22 + p23 + o21 + o22 + o23 + sc21 + sc22 + sc23 + sb21 + sb22
+   + sb23 <= 700
+ 7: p11 + p21 + o11 + o21 + sc11 + sc21 + sb11 + sb21 <= 500
+ 8: p12 + p22 + o12 + o22 + sc12 + sc22 + sb12 + sb22 <= 420
+ 9: p13 + p23 + o13 + o23 + sc13 + sb13 + sb23 + sc33 <= 600
+Bounds
+End
+
+report.py v.0.96 output from ass01-4.lp at 03:39 PM on 01/28/2020:
+
+        OBJECTIVE FUNCTION VALUE
+
+        0)        167600
+
+  VARIABLE        VALUE          REDUCED COST
+       p11                0                 6
+       p12                0                64
+       p13                0                 6
+       p21              125                 0
+       p22               80                 0
+       p23                0                14
+       o11              100                 0
+       o12                0                58
+       o13              269                 0
+       o21                0                21
+       o22                0                21
+       o23                0                35
+      sc11                0                 0
+      sc12                0                58
+      sc13                0                 0
+      sc21                0                 0
+      sc22              340                 0
+      sc23                0                 8
+      sb11                0                 0
+      sb12                0                58
+      sb13              331                 0
+      sb21               77                 0
+      sb22                0                 0
+      sb23                0                14
+      sc33                0                 6
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+        1)                0              -146
+        2)                0              -146
+        3)                0              -181
+        4)                0              -132
+        5)                0                28
+        6)               78                 0
+        7)              198                 0
+        8)                0                20
+        9)                0                 6
+
+ NO. ITERATIONS=       9
+
+ RANGES IN WHICH THE BASIS IS UNCHANGED:
+
+                           OBJ COEFFICIENT RANGES
+ VARIABLE         CURRENT        ALLOWABLE        ALLOWABLE
+                   COEF          INCREASE         DECREASE
+      p11             124              inf                6
+      p12             162              inf               64
+      p13             118              inf                6
+      p21             146                0                0
+      p22             126                0                0
+      p23             154              inf               14
+      o11             118                0                6
+      o12             156              inf               58
+      o13             112                6                0
+      o21             167              inf               21
+      o22             147              inf               21
+      o23             175              inf               35
+     sc11             153              inf                0
+     sc12             191              inf               58
+     sc13             147              inf                0
+     sc21             181              inf                0
+     sc22             161                0              181
+     sc23             189              inf                8
+     sb11             104              inf                0
+     sb12             142              inf               58
+     sb13              98                0               21
+     sb21             132                0                0
+     sb22             112              inf                0
+     sb23             140              inf               14
+     sc33               0              inf                6
+
+                           RIGHTHAND SIDE RANGES
+      ROW         CURRENT        ALLOWABLE        ALLOWABLE
+                    RHS          INCREASE         DECREASE
+        1             205               78              125
+        2             369               78               77
+        3             340               78              125
+        4             408               78               77
+        5             700               77               78
+        6             700              inf               78
+        7             500              inf              198
+        8             420              125               80
+        9             600              100              198

@@ -81,10 +81,37 @@ The model, from Revelle, results in the following values for x<sub>ij</sub>:
 **Comment on the solution:** 🚨 TODO 🚨 
 
 ### 🔥 Problem 4
-🚨 TODO 🚨
-- Set up model
-- Write LP file
-- Generate log & results w/ Gurboi
+**Files:** `ass01-4.lp`, `ass01-4.log`
+
+**Results:**
+```
+  VARIABLE        VALUE
+       p11                0
+       p12                0
+       p13                0
+       p21              125
+       p22               80
+       p23                0
+       o11              100
+       o12                0
+       o13              269
+       o21                0
+       o22                0
+       o23                0
+      sc11                0
+      sc12                0
+      sc13                0
+      sc21                0
+      sc22              340
+      sc23                0
+      sb11                0
+      sb12                0
+      sb13              331
+      sb21               77
+      sb22                0
+      sb23                0
+      sc33                0
+```
 
 ### 🔥 Problem 5
 #### 👉 Part A
@@ -101,4 +128,4 @@ This will result in a profit of **$350,000.00**.
 
 #### 👉 Part B
 🚨 TODO 🚨
-- I also can't find this problem in the book
+- Solve part A graphically

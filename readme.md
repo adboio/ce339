@@ -46,10 +46,12 @@ Given the data in the chart below:
 ![problem 1 part d table](https://raw.githubusercontent.com/adboio/ce339/master/ass01/p1/p1c-table.png)
 
 The maximum amount of water supplied from the three sources is:
-**x1:** 25 mgd
-**x2:** 35.94 mgd
-**x2:** 89.06 mgd
 
+**x1:** 25 mgd
+
+**x2:** 35.94 mgd
+
+**x2:** 89.06 mgd
 
 ## 🔥 Problem 2
 ### 👉 Part A

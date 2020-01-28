@@ -38,10 +38,16 @@ resulting in a total cost of:
 `25*500 + 35.9*1000 + 89.1*20001` = **$226,600** *(a 9% increase)*
 
 ### 👉 Part C
-![problem 1 part c graph of cost vs. water](linkhere)
+![problem 1 part c graph of cost vs. water](https://raw.githubusercontent.com/adboio/ce339/master/ass01/p1/p1c-graph.png)
 
 ### 👉 Part D
-🚨 TODO 🚨
+Given the data in the chart below:
+![problem 1 part d table](https://raw.githubusercontent.com/adboio/ce339/master/ass01/p1/p1c-table.png)
+The maximum amount of water supplied from the three sources is:
+**x1:** 25 mgd
+**x2:** 35.94 mgd
+**x2:** 89.06 mgd
+
 
 ## 🔥 Problem 2
 ### 👉 Part A

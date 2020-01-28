@@ -92,6 +92,7 @@ The model, from Revelle, results in the following values for x<sub>ij</sub>:
 
 **Results:**
 In order to maximize Trucko's profit, we should advise they produce **_700_ Type 2 trucks** and **_0_ Type 1 trucks**.
+This will result in a profit of **$350,000.00**.
 ```
   VARIABLE        VALUE
         t1                0

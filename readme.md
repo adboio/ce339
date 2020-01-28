@@ -38,7 +38,7 @@ resulting in a total cost of:
 `25*500 + 35.9*1000 + 89.1*20001` = **$226,600** *(a 9% increase)*
 
 ### 👉 Part C
-🚨 TODO 🚨
+![problem 1 part c graph of cost vs. water](linkhere)
 
 ### 👉 Part D
 🚨 TODO 🚨

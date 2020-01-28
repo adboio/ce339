@@ -1,8 +1,6 @@
-# CE 339 - Spring 2020
-
-## Assignment 1
-### 🔥 Problem 1
-#### 👉 Part A
+# Assignment 1
+## 🔥 Problem 1
+### 👉 Part A
 **Files:** `ass01-1a.lp`, `ass01-1a.log`
 
 **Results:**
@@ -15,7 +13,7 @@
 
 **Conclusion:** Solution is consistent with Revelle
 
-#### 👉 Part B
+### 👉 Part B
 **Files:** `ass01-1b.lp`, `ass01-1b.log`
 
 The results, using a **hardness of 1200**, were:
@@ -39,14 +37,14 @@ resulting in a total cost of:
 resulting in a total cost of:
 `25*500 + 35.9*1000 + 89.1*20001` = **$226,600** *(a 9% increase)*
 
-#### 👉 Part C
+### 👉 Part C
 🚨 TODO 🚨
 
-#### 👉 Part D
+### 👉 Part D
 🚨 TODO 🚨
 
-### 🔥 Problem 2
-#### 👉 Part A
+## 🔥 Problem 2
+### 👉 Part A
 **Files:** `ass01-2a.lp`, `ass01-2a.log`
 
 **Results:**
@@ -61,14 +59,14 @@ The model, from Revelle, results in the following values for x<sub>ij</sub>:
        x23              300
 ```
 
-#### 👉 Part B
+### 👉 Part B
 🚨 TODO 🚨 
 
-### 🔥 Problem 3
-#### 👉 Part A
+## 🔥 Problem 3
+### 👉 Part A
 🚨 TODO 🚨
 
-#### 👉 Part B
+### 👉 Part B
 **Files:** `ass01-3b.lp`, `ass01-3b.log`
 
 **Results:**
@@ -80,7 +78,7 @@ The model, from Revelle, results in the following values for x<sub>ij</sub>:
 
 **Comment on the solution:** 🚨 TODO 🚨 
 
-### 🔥 Problem 4
+## 🔥 Problem 4
 **Files:** `ass01-4.lp`, `ass01-4.log`
 
 **Results:**
@@ -113,8 +111,8 @@ The model, from Revelle, results in the following values for x<sub>ij</sub>:
       sc33                0
 ```
 
-### 🔥 Problem 5
-#### 👉 Part A
+## 🔥 Problem 5
+### 👉 Part A
 **Files:** `ass01-5a.lp`, `ass01-5a.log`
 
 **Results:**
@@ -126,6 +124,6 @@ This will result in a profit of **$350,000.00**.
         t2              700
 ```
 
-#### 👉 Part B
+### 👉 Part B
 🚨 TODO 🚨
 - Solve part A graphically

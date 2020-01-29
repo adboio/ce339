@@ -74,7 +74,24 @@ The real world problem that problem 2 is based on obviously would have been much
 
 ## 🔥 Problem 3
 ### 👉 Part A
-🚨 TODO 🚨
+Checking calculations used to formulate **(3/4) x_1 + (1/4) x_2 ≥ 9000 and (1/4) x_1 + (3/4) x_2 ≥ 13000**.
+
+**City 1:**
+
+0.0075(12000 - x_1 ) + 0.0025(20000-x_2 ) ≤ 50
+90-0.0075x_1+50-0.0025x_2≤50
+0.0075x_1+0.0025x_2≥90
+(3/4) x_1+(1/4) x_2≥9000
+
+**Result:** Calculation here matches the model in the book.
+
+**City 2:**
+0.0025(12000-x_1 )+0.0075(20000-x_2 )≤50
+30-0.0025x_1+150-0.0075x_2≤50
+0.0025x_1+0.0075x_2≥130
+(1/4) x_1+(3/4) x_2≥13000
+
+**Result:** Calculation here matches the model in the book.
 
 ### 👉 Part B
 **Files:** `ass01-3b.lp`, `ass01-3b.log`
@@ -86,7 +103,7 @@ The real world problem that problem 2 is based on obviously would have been much
         x2            15000
 ```
 
-**Comment on the solution:** 🚨 TODO 🚨 
+**Comment on the solution:** The solution reached using Gurobi determined X1 to be 7000 and X2 to be 15,000. This means that there would need to be a reduction of 7000 kg/month at plant 1 and a reduction of 15000 kg/month at plant 2, resulting in a yearly cost of $22,000,000 per year. This is a high cost, but that makes sense considering the massive amount of pollution that needs to be filtered from the smoke to reach the 50g per unit area mark desired in the problem.
 
 ## 🔥 Problem 4
 **Files:** `ass01-4.lp`, `ass01-4.log`

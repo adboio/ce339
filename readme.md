@@ -70,7 +70,7 @@ The model, from Revelle, results in the following values for x<sub>ij</sub>:
 ```
 
 ### 👉 Part B
-🚨 TODO 🚨 
+The real world problem that problem 2 is based on obviously would have been much more difficult had certain things not been simplified, such as all of the numbers being discrete and within a workable range, the small and finite range of areas being cut and filled, that all of the area being cut and filled will be the same- assuming a uniform base foundation being cut and added to-, and assuming it will all go smoothly and there will be no mistakes in the measurements taken. There are definitely more, there are always more variables that could be taken into account, but because of these simplifications and more it was a lot easier to break down the variables and linearly model this system. To consider every single outside force that could affect this experiment would not only add more dependent and independent variables, but it would overall complicate the model and possibly make it nonlinear. Any mistakes made, or base not being what was anticipated, will completely alter any assumed equations or variables and would be near impossible to graph perfectly.
 
 ## 🔥 Problem 3
 ### 👉 Part A

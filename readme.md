@@ -79,16 +79,23 @@ Checking calculations used to formulate **(3/4) x_1 + (1/4) x_2 ≥ 9000 and (1/
 **City 1:**
 
 0.0075(12000 - x_1 ) + 0.0025(20000-x_2 ) ≤ 50
+
 90-0.0075x_1+50-0.0025x_2≤50
+
 0.0075x_1+0.0025x_2≥90
+
 (3/4) x_1+(1/4) x_2≥9000
 
 **Result:** Calculation here matches the model in the book.
 
 **City 2:**
+
 0.0025(12000-x_1 )+0.0075(20000-x_2 )≤50
+
 30-0.0025x_1+150-0.0075x_2≤50
+
 0.0025x_1+0.0075x_2≥130
+
 (1/4) x_1+(3/4) x_2≥13000
 
 **Result:** Calculation here matches the model in the book.

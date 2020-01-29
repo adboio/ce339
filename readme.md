@@ -1,4 +1,5 @@
-# Assignment 1
+# CE 339 Assignment 1
+## Dana Cyr, Jake Raynor, Adam Bowker, Brayden Golas
 ## 🔥 Problem 1
 ### 👉 Part A
 **Files:** `ass01-1a.lp`, `ass01-1a.log`
@@ -154,5 +155,6 @@ This will result in a profit of **$350,000.00**.
 ```
 
 ### 👉 Part B
-🚨 TODO 🚨
-- Solve part A graphically
+Part A, solved graphically, yeilds the following plot:
+![problem 5 part b chart](https://raw.githubusercontent.com/adboio/ce339/master/ass01/p5/p5-graph.png)
+

@@ -13,7 +13,7 @@ _Use both Gurobi and graph_
 **Files:** `ass02-p6a.lp`, `ass02-p6a.log`, `ass02-p6a.ilp`
 
 **Graphical Representation:**
-
+![graphical representation of problem 3a](https://raw.githubusercontent.com/adboio/ce339/master/ass02/p3/ass02-p3a-graph.png)
 
 **Results:**
 ```

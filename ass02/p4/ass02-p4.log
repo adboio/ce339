@@ -1,0 +1,51 @@
+\ Model ass02-p4.lp
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Maximize
+  40 h_sold + 90 h_proc + 60 a_sold + 130 a_proc - 40 oil
+Subject To
+ 1: oil <= 20000
+ 2: - a_sold - a_proc + 0.5 oil = 0
+ 3: - h_sold - h_proc + 0.5 oil = 0
+ 4: 0.00075 h_proc + 0.001 a_proc <= 8
+Bounds
+End
+
+report.py v.0.96 output from ass02-p4.lp at 12:29 PM on 01/30/2020:
+
+        OBJECTIVE FUNCTION VALUE
+
+        0)        760000
+
+  VARIABLE        VALUE          REDUCED COST
+    h_sold            10000                 0
+    h_proc                0               2.5
+    a_sold             2000                 0
+    a_proc             8000                 0
+       oil            20000                 0
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+        1)                0                10
+        2)                0               -60
+        3)                0               -40
+        4)                0             70000
+
+ NO. ITERATIONS=       0
+
+ RANGES IN WHICH THE BASIS IS UNCHANGED:
+
+                           OBJ COEFFICIENT RANGES
+ VARIABLE         CURRENT        ALLOWABLE        ALLOWABLE
+                   COEF          INCREASE         DECREASE
+   h_sold              40              inf              2.5
+   h_proc              90              2.5              inf
+   a_sold              60        3.3333333               20
+   a_proc             130              inf        3.3333333
+      oil             -40              inf               10
+
+                           RIGHTHAND SIDE RANGES
+      ROW         CURRENT        ALLOWABLE        ALLOWABLE
+                    RHS          INCREASE         DECREASE
+        1           20000              inf             4000
+        2               0             2000              inf
+        3               0            10000              inf
+        4               8                2                8

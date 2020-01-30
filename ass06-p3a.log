@@ -1,0 +1,14 @@
+\ Model ass06-p3a.lp
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+  x1 - x2
+Subject To
+ 1: x1 + x2 <= 6
+ 2: x1 - x2 >= 0
+ 3: - x1 + x2 >= 3
+ 4: x1 >= 0
+ 5: x2 >= 0
+Bounds
+End
+
+report.py v.0.96 output from ass06-p3a.lp at 04:29 PM on 01/30/2020:

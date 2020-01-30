@@ -1,0 +1,11 @@
+\ Model ass06-p3a.lp_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ R1: x1 - x2 >= 0
+ R2: - x1 + x2 >= 3
+Bounds
+ x1 free
+ x2 free
+End

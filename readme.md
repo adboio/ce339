@@ -10,8 +10,15 @@ _Use both Gurobi and graph_
 
 ## 🔥 Problem 3
 ### 👉 Part A
-_Winston 3.3 problem 8 (p. 68)_
-_Use both Gurobi and graph_
+**Files:** `ass02-p6a.lp`, `ass02-p6a.log`, `ass02-p6a.ilp`
+
+**Graphical Representation:**
+
+
+**Results:**
+```
+This model is infeasibile.
+```
 
 ### 👉 Part B
 _Remove the constrant `x2 - x1 >= 3` and solve again._
@@ -25,11 +32,11 @@ _Find a way to formulate the new LP so that it produces the alternate optimal so
 
 **Decision Variables:**
 ```
-oil   : # barrels of oil purchased
-h_sold: # barrels of heating oil sold
-h_proc: # barrels of heating oil processed
-a_sold: # barrels of aviation oil sold
-a_proc: # barrels of aviation oil processed
+oil    : # barrels of oil purchased
+h_sold : # barrels of heating oil sold
+h_proc : # barrels of heating oil processed
+a_sold : # barrels of aviation oil sold
+a_proc : # barrels of aviation oil processed
 ```
 
 **Results:**
@@ -75,7 +82,7 @@ x2b : acres of tract 2 used for both spruce and camping
 
 **Decision Variables:**
 ```
-pijk: # of product i produced in month j on machine k
+pijk : # of product i produced in month j on machine k
 ```
 
 **Results:**

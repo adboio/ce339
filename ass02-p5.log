@@ -1,0 +1,53 @@
+\ Model ass02-p5.lp
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Maximize
+  0.2 x1s + 0.4 x1h + 0.5 x1b + 0.06 x2s + 0.09 x2c + 1.1 x2b
+Subject To
+ 1: x1s + x1h + x1b <= 300
+ 2: x2s + x2c + x2b <= 100
+ 3: 300 x1s + 300 x1h + 400 x1b + 100 x2s + 3000 x2c + 1000 x2b <= 150000
+ 4: 0.1 x1s + 0.2 x1h + 0.2 x1b + 0.05 x2s + 5 x2c + 1.01 x2b <= 200
+Bounds
+End
+
+report.py v.0.96 output from ass02-p5.lp at 12:48 PM on 01/30/2020:
+
+        OBJECTIVE FUNCTION VALUE
+
+        0)           186
+
+  VARIABLE        VALUE          REDUCED COST
+       x1s                0               0.2
+       x1h              300                 0
+       x1b                0              0.01
+       x2s                0              0.05
+       x2c                0              3.21
+       x2b               60                 0
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+        1)                0              0.07
+        2)               40                 0
+        3)                0            0.0011
+        4)             79.4                 0
+
+ NO. ITERATIONS=       4
+
+ RANGES IN WHICH THE BASIS IS UNCHANGED:
+
+                           OBJ COEFFICIENT RANGES
+ VARIABLE         CURRENT        ALLOWABLE        ALLOWABLE
+                   COEF          INCREASE         DECREASE
+      x1s             0.2              0.2              inf
+      x1h             0.4              inf             0.01
+      x1b             0.5             0.01              inf
+      x2s            0.06             0.05              inf
+      x2c            0.09             3.21              inf
+      x2b             1.1       0.23333333              0.1
+
+                           RIGHTHAND SIDE RANGES
+      ROW         CURRENT        ALLOWABLE        ALLOWABLE
+                    RHS          INCREASE         DECREASE
+        1             300              200        133.33333
+        2             100              inf               40
+        3          150000            40000            60000
+        4             200              inf             79.4

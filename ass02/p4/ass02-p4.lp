@@ -1,8 +1,7 @@
-\ File: ass01-1a.lp
+\ File: ass01-p4.lp
 \
-\ Assignment 1
-\ Problem 1
-\ Part A
+\ Assignment 2
+\ Problem 4
 \
 \ Authors: Dana Cyr
 \          Jake Raynor
@@ -25,4 +24,9 @@ Subject To
   - a_sold - a_proc + 0.5 oil = 0
   - h_sold - h_proc + 0.5 oil = 0
   0.001 a_proc + 0.00075 h_proc <= 8
+  oil >= 0
+  h_sold >= 0
+  h_proc >= 0
+  a_sold >= 0
+  a_proc >= 0
 End

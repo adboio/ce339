@@ -1,10 +1,12 @@
 # CE 339 Assignment 2
 ## Dana Cyr, Jake Raynor, Adam Bowker, Brayden Golas
 ## 🔥 Problem 1
+🚨 TODO 🚨
 _Winston 3.3 problem 2 (p. 68)_
 _Use both Gurobi and graph_
 
 ## 🔥 Problem 2
+🚨 TODO 🚨
 _Winston 3.3 problem 3 (p. 68)_
 _Use both Gurobi and graph_
 
@@ -21,10 +23,12 @@ This model is infeasibile.
 ```
 
 ### 👉 Part B
+🚨 TODO 🚨
 _Remove the constrant `x2 - x1 >= 3` and solve again._
 _Determine two optimal solns for the new LP._
 
 ### 👉 Part C
+🚨 TODO 🚨
 _Find a way to formulate the new LP so that it produces the alternate optimal solution, i.e. the second one._
 
 ## 🔥 Problem 4

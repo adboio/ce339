@@ -1,4 +1,4 @@
-# CE 339 Assignment 1
+# CE 339 Assignment 2
 ## Dana Cyr, Jake Raynor, Adam Bowker, Brayden Golas
 ## 🔥 Problem 1
 _Winston 3.3 problem 2 (p. 68)_

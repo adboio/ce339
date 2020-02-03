@@ -1,0 +1,45 @@
+\ Model ass02-p1.lp
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Maximize
+  4 x1 + x2
+Subject To
+ 1: 8 x1 + 2 x2 <= 16
+ 2: 5 x1 + 2 x2 <= 12
+ 3: x1 >= 0
+ 4: x2 >= 0
+Bounds
+End
+
+report.py v.0.96 output from ass02-p1.lp at 09:54 AM on 02/03/2020:
+
+        OBJECTIVE FUNCTION VALUE
+
+        0)             8
+
+  VARIABLE        VALUE          REDUCED COST
+        x1                2                 0
+        x2                0                 0
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+        1)                0               0.5
+        2)                2                 0
+        3)                2                 0
+        4)                0                 0
+
+ NO. ITERATIONS=       0
+
+ RANGES IN WHICH THE BASIS IS UNCHANGED:
+
+                           OBJ COEFFICIENT RANGES
+ VARIABLE         CURRENT        ALLOWABLE        ALLOWABLE
+                   COEF          INCREASE         DECREASE
+       x1               4              inf                0
+       x2               1                0              inf
+
+                           RIGHTHAND SIDE RANGES
+      ROW         CURRENT        ALLOWABLE        ALLOWABLE
+                    RHS          INCREASE         DECREASE
+        1              16              3.2               16
+        2              12              inf                2
+        3               0                2              inf
+        4               0                0              inf

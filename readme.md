@@ -1,31 +1,63 @@
 # CE 339 Assignment 2
 ## Dana Cyr, Jake Raynor, Adam Bowker, Brayden Golas
 ## 🔥 Problem 1
+
+**Files:** `ass02-p1.lp`, `ass02-p1.log`
+
+**Graphical Solution:**
 🚨 TODO 🚨
-_Winston 3.3 problem 2 (p. 68)_
-_Use both Gurobi and graph_
+
+**Results:**
+```
+  VARIABLE        VALUE
+        x1                2
+        x2                0
+
+Winston Case 2: "The LP has alternative or multiple optimal solutions: Two or more extreme points
+are optimal, and the LP will have an infinite number of optimal solutions."
+```
 
 ## 🔥 Problem 2
+
+**Files:** `ass02-p2.lp`, `ass02-p2.log`
+
+**Graphical Solution:**
 🚨 TODO 🚨
-_Winston 3.3 problem 3 (p. 68)_
-_Use both Gurobi and graph_
+
+
+**Results:**
+```
+Winston Case 4: "The LP is unbounded: There are points in the feasible region with arbitrarily large
+z-values (max problem) or arbitrarily small z-values (min problem)."
+```
 
 ## 🔥 Problem 3
 ### 👉 Part A
-**Files:** `ass02-p6a.lp`, `ass02-p6a.log`, `ass02-p6a.ilp`
+**Files:** `ass02-p3a.lp`, `ass02-p3a.log`, `ass02-p3a.ilp`
 
 **Graphical Representation:**
 ![graphical representation of problem 3a](https://raw.githubusercontent.com/adboio/ce339/master/ass02/p3/ass02-p3a-graph.png)
 
 **Results:**
 ```
-This model is infeasibile.
+Winston Case 2: "The LP is infeasible: The feasible region contains no points."
 ```
 
 ### 👉 Part B
 🚨 TODO 🚨
 _Remove the constrant `x2 - x1 >= 3` and solve again._
 _Determine two optimal solns for the new LP._
+_this part isn't done and idk how to do it_
+
+**Files:** `ass02-p3b.lp`, `ass02-p3b.log`
+
+**Results (from Gurobi):**
+```
+  VARIABLE        VALUE          REDUCED COST
+        x1                0                 0
+        x2                0                 0
+```
+
 
 ### 👉 Part C
 🚨 TODO 🚨

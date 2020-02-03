@@ -1,8 +1,7 @@
-\ File: ass02-p3a.lp
+\ File: ass02-p1.lp
 \
 \ Assignment 2
-\ Problem 3
-\ Part B
+\ Problem 1
 \
 \ Authors: Dana Cyr
 \          Jake Raynor
@@ -10,11 +9,11 @@
 \          Brayden Golas
 \
 
-Minimize
-  x1 - x2
+Maximize
+  4 x1 + x2
 Subject To
-  x1 + x2 <= 6
-  x1 - x2 >= 0
+  8 x1 + 2 x2 <= 16
+  5 x1 + 2 x2 <= 12
   x1 >= 0
   x2 >= 0
 End

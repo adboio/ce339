@@ -1,0 +1,16 @@
+\ Model ass02-p2.lp
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Maximize
+  3 x2 - x1
+Subject To
+ 1: - x2 + x1 <= 4
+ 2: 2 x2 + x1 >= 4
+ 3: x1 >= 0
+ 4: x2 >= 0
+Bounds
+End
+
+report.py v.0.96 output from ass02-p2.lp at 10:02 AM on 02/03/2020:
+
+UNBOUNDED
+

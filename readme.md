@@ -5,7 +5,7 @@
 **Files:** `ass02-p1.lp`, `ass02-p1.log`
 
 **Graphical Solution:**
-🚨 TODO 🚨
+![graphical representation of problem 1](https://raw.githubusercontent.com/adboio/ce339/master/ass02/p2/ass02-p1-graph.png)
 
 **Results (Gurobi):**
 ```

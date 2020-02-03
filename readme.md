@@ -15,9 +15,11 @@
 ```
 
 
-**Winston Case 2:** `"The LP has alternative or multiple optimal solutions: Two or more extreme points
-are optimal, and the LP will have an infinite number of optimal solutions."`
-
+**Winston Case:**
+```
+2. "The LP has alternative or multiple optimal solutions: Two or more extreme points
+are optimal, and the LP will have an infinite number of optimal solutions."
+```
 
 
 ## 🔥 Problem 2
@@ -33,8 +35,11 @@ are optimal, and the LP will have an infinite number of optimal solutions."`
 Unbounded model
 ```
 
-**Winston Case 4:** `"The LP is unbounded: There are points in the feasible region with arbitrarily large
-z-values (max problem) or arbitrarily small z-values (min problem)."`
+**Winston Case:** 
+```
+4. "The LP is unbounded: There are points in the feasible region with arbitrarily large
+z-values (max problem) or arbitrarily small z-values (min problem)."
+```
 
 
 ## 🔥 Problem 3

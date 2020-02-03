@@ -172,12 +172,12 @@ Maximize
 
 **Comments:** This model suggests we should produce the following products:
 ```
-Product    Month    Machine    Qty    Revenue
-   1         1         1       100     $5300
-   1         2         1       116     $1392
-   2         1         1        14     $ 910
-   2         1         2       125     $8125
-   2         2         1         5     $ 160
-   2         2         2       125     $4000
+Product    Month    Machine    Qty
+   1         1         1       100
+   1         2         1       116
+   2         1         1        14
+   2         1         2       125
+   2         2         1         5
+   2         2         2       125
 ```
 This production will result in a revenue of **$20,477**.

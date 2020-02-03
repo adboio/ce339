@@ -58,16 +58,6 @@ Winston Case 2: "The LP is infeasible: The feasible region contains no points."
 🚨 TODO 🚨
 _Remove the constrant `x2 - x1 >= 3` and solve again._
 _Determine two optimal solns for the new LP._
-_this part isn't done and idk how to do it_
-
-**Files:** `ass02-p3b.lp`, `ass02-p3b.log`
-
-**Results (from Gurobi):**
-```
-  VARIABLE        VALUE          REDUCED COST
-        x1                0                 0
-        x2                0                 0
-```
 
 
 ### 👉 Part C

@@ -27,8 +27,7 @@ are optimal, and the LP will have an infinite number of optimal solutions."
 **Files:** `ass02-p2.lp`, `ass02-p2.log`
 
 **Graphical Solution:**
-🚨 TODO 🚨
-
+![graphical representation of problem 2](https://raw.githubusercontent.com/adboio/ce339/master/ass02/p2/ass02-p2-graph.png)
 
 **Results (Gurobi):**
 ```

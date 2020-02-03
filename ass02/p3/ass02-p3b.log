@@ -1,0 +1,45 @@
+\ Model ass06-p3b.lp
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+  x1 - x2
+Subject To
+ 1: x1 + x2 <= 6
+ 2: x1 - x2 >= 0
+ 3: x1 >= 0
+ 4: x2 >= 0
+Bounds
+End
+
+report.py v.0.96 output from ass06-p3b.lp at 07:48 PM on 01/30/2020:
+
+        OBJECTIVE FUNCTION VALUE
+
+        0)             0
+
+  VARIABLE        VALUE          REDUCED COST
+        x1                0                 0
+        x2                0                 0
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+        1)                6                 0
+        2)                0                -1
+        3)                0                 0
+        4)                0                 0
+
+ NO. ITERATIONS=       0
+
+ RANGES IN WHICH THE BASIS IS UNCHANGED:
+
+                           OBJ COEFFICIENT RANGES
+ VARIABLE         CURRENT        ALLOWABLE        ALLOWABLE
+                   COEF          INCREASE         DECREASE
+       x1               1              inf                0
+       x2              -1              inf                0
+
+                           RIGHTHAND SIDE RANGES
+      ROW         CURRENT        ALLOWABLE        ALLOWABLE
+                    RHS          INCREASE         DECREASE
+        1               6              inf                6
+        2               0                6                0
+        3               0                0              inf
+        4               0                0              inf

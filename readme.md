@@ -54,7 +54,7 @@ Infeasible model
 
 **Winston Case:**
 ```
-2. "The LP is infeasible: The feasible region contains no points."
+3. "The LP is infeasible: The feasible region contains no points."
 ```
 
 ### 👉 Part B

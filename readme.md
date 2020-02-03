@@ -21,7 +21,6 @@
 are optimal, and the LP will have an infinite number of optimal solutions."
 ```
 
-
 ## 🔥 Problem 2
 
 **Files:** `ass02-p2.lp`, `ass02-p2.log`
@@ -48,9 +47,14 @@ z-values (max problem) or arbitrarily small z-values (min problem)."
 **Graphical Representation:**
 ![graphical representation of problem 3a](https://raw.githubusercontent.com/adboio/ce339/master/ass02/p3/ass02-p3a-graph.png)
 
-**Results:**
+**Results (Gurobi):**
 ```
-Winston Case 2: "The LP is infeasible: The feasible region contains no points."
+Infeasible model
+```
+
+**Winston Case:**
+```
+2. "The LP is infeasible: The feasible region contains no points."
 ```
 
 ### 👉 Part B
@@ -75,8 +79,18 @@ a_sold : # barrels of aviation oil sold
 a_proc : # barrels of aviation oil processed
 ```
 
+**Objective Function:**
+```
+Maximize
+  40 h_sold + 90 h_proc + 60 a_sold + 130 a_proc - 40 oil
+```
+
 **Results:**
 ```
+        OBJECTIVE FUNCTION VALUE
+
+        0)        760000
+
   VARIABLE        VALUE
     h_sold            10000
     h_proc                0
@@ -100,8 +114,19 @@ x2c : acres of tract 2 used for camping
 x2b : acres of tract 2 used for both spruce and camping
 ```
 
+**Objective Function:**
+```
+Maximize
+  0.2 x1s + 0.4 x1h + 0.5 x1b + 0.06 x2s + 0.09 x2c
+    + 1.1 x2b
+```
+
 **Results:**
 ```
+        OBJECTIVE FUNCTION VALUE
+
+        0)           186
+
   VARIABLE        VALUE
        x1s                0
        x1h              300
@@ -111,7 +136,7 @@ x2b : acres of tract 2 used for both spruce and camping
        x2b               60
 ```
 
-**Comments:** Our model suggests that in tract 1, all 300 acres should be used for designated for hunting use (`x1h = 300`). This results in a profit of $120,000. In tract 2, 60 acres should be designated for both spruce and camping (`x2b = 60`). This results in a profit of $66,000.
+**Comments:** Our model suggests that in tract 1, all 300 acres should be used for designated for hunting use (`x1h = 300`). This results in a profit of $120,000. In tract 2, 60 acres should be designated for both spruce and camping (`x2b = 60`). This results in a profit of $66,000. Total profit is $186,000.
 
 ## 🔥 Problem 6
 **Files:** `ass02-p6.lp`, `ass02-p6.log`
@@ -121,8 +146,19 @@ x2b : acres of tract 2 used for both spruce and camping
 pijk : # of product i produced in month j on machine k
 ```
 
+**Objective Function:**
+```
+Maximize
+  55 p111 + 55 p112 + 12 p121 + 12 p122 + 65 p211 + 65 p212
+    + 35 p221 + 35 p222
+```
+
 **Results:**
 ```
+        OBJECTIVE FUNCTION VALUE
+
+        0)         20477
+
   VARIABLE        VALUE
       p111              100
       p112                0
@@ -144,4 +180,4 @@ Product    Month    Machine    Qty    Revenue
    2         2         1         5     $ 160
    2         2         2       125     $4000
 ```
-This production will result in a revenue of **$19,887**.
+This production will result in a revenue of **$20,477**.

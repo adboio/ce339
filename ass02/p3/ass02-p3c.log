@@ -1,0 +1,45 @@
+\ Model ass02-p3c.lp
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+  x1 - x2
+Subject To
+ 1: x1 + x2 <= 6
+ 2: x1 - x2 >= 0
+ 3: x1 >= 3
+ 4: x2 >= 0
+Bounds
+End
+
+report.py v.0.96 output from ass02-p3c.lp at 01:12 AM on 02/05/2020:
+
+        OBJECTIVE FUNCTION VALUE
+
+        0)             0
+
+  VARIABLE        VALUE          REDUCED COST
+        x1                3                 0
+        x2                3                 0
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+        1)                0                 1
+        2)                0                 0
+        3)                0                -2
+        4)                3                 0
+
+ NO. ITERATIONS=       0
+
+ RANGES IN WHICH THE BASIS IS UNCHANGED:
+
+                           OBJ COEFFICIENT RANGES
+ VARIABLE         CURRENT        ALLOWABLE        ALLOWABLE
+                   COEF          INCREASE         DECREASE
+       x1               1              inf                2
+       x2              -1                1              inf
+
+                           RIGHTHAND SIDE RANGES
+      ROW         CURRENT        ALLOWABLE        ALLOWABLE
+                    RHS          INCREASE         DECREASE
+        1               6                0                3
+        2               0                0              inf
+        3               3                3                0
+        4               0                3              inf
